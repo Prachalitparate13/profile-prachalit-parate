@@ -1,1 +1,1 @@
-export const PHOTOURL='../../public/ppimg.jpg'
+export const PHOTOURL='/ppimg.jpg'

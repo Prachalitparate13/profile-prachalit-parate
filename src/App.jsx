@@ -1,6 +1,7 @@
 import About from './components/About.jsx'
 import Footer from './components/Footer.jsx'
 import Header from './components/Header.jsx'
+import Project from './components/Project.jsx'
 
 function App() {
 
@@ -8,7 +9,9 @@ function App() {
     <>
     <Header/>
     <About/>
+    <Project/>
     <Footer/>
+    
     </>
   )
 }

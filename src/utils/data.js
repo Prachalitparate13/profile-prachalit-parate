@@ -1,40 +1,65 @@
+import { CROPRECOMMENDTIONPHOTOURL, FINSENTIMENTALPHOTOURL, GEOENCRYPTIONPHOTOURL, MEDICALINSURANCEPHOTOURL, NEBEATSPHOTOURL, PRODUCTDISCOVERYPHOTOURL, VEDIOENCRYPTIONPHOTOURL, VERBASYNCPHOTOURL } from "./ProfileUtils";
+
+ 
+
 export const projectsData = [
   {
-    id: 1,
-    title: "",
-    category: "",
-    img: "",
-  },
-  {
-    id: 2,
-    title: "",
-    category: "",
-    img: "",
-  },
-  {
-    id: 3,
-    title: "",
-    category: "",
-    img: "",
-  },
-  {
-    id: 4,
-    title: "",
-    category: "",
-    img: "",
-  },
-  {
-    id: 5,
-    title: "",
-    category: "",
-    img: "",
-  },
-  {
     id: 6,
-    title: "",
-    category: "",
-    img: "",
+    title: "VerbaSync",
+    category: "Web-based Application",
+    img: {VERBASYNCPHOTOURL},
+    description: "VerbaSync is a web-based transcription and translation application built with React.js, Tailwind CSS, and Huggingface.js. It leverages web workers to run machine learning models directly in the browser, enabling fast and efficient transcription and translation without needing a server-side backend."
   },
+  {
+    id: 7,
+    title: "Medical Insurance Cost Prediction System",
+    category: "Machine Learning Model",
+    img: {MEDICALINSURANCEPHOTOURL},
+    description: "A machine learning model designed to predict the cost of medical insurance based on factors such as age, gender, BMI, smoking status, and region. This system utilizes regression techniques to accurately forecast insurance premiums."
+  },
+  {
+    id: 8,
+    title: "Crop Recommendation System",
+    category: "Machine Learning Model",
+    img: {CROPRECOMMENDTIONPHOTOURL},
+    description: "A machine learning model developed to recommend the most suitable crops to plant based on various parameters like soil type, weather conditions, and historical yield data. It uses classification algorithms to optimize crop yield and support agricultural decision-making."
+  },
+  {
+    id: 9,
+    title: "NBeats and RevIN Algorithm for Time Series Forecasting",
+    category: "Time Series Forecasting",
+    img: {NEBEATSPHOTOURL},
+    description: "An implementation of the NBeats and RevIN algorithms for accurate time series forecasting. These advanced machine learning models are designed to handle a wide range of forecasting tasks, including trends, seasonality, and irregular data patterns."
+  },
+  {
+    id: 10,
+    title: "Product-Discovery-App",
+    category: "Web Application",
+    img: {PRODUCTDISCOVERYPHOTOURL},
+    description: "A Python-based product discovery app that utilizes web scraping to collect data from e-commerce websites. The app is supported by a database and provides analytics on pricing, product trends, and customer reviews to help users make informed purchasing decisions."
+  },
+  {
+    id: 11,
+    title: "Financial Sentiment Analysis using NLP",
+    category: "Natural Language Processing",
+    img: {FINSENTIMENTALPHOTOURL},
+    description: "A Natural Language Processing (NLP) model designed to analyze financial news and market sentiment. It categorizes financial statements as positive, negative, or neutral, with a model accuracy of 0.6383."
+  },
+  {
+    id: 12,
+    title: "Geo-spatial Image Encryption with Cryptography",
+    category: "Cryptography",
+    img: {GEOENCRYPTIONPHOTOURL},
+    description: "A cryptographic system that encrypts geo-spatial images using advanced cryptographic algorithms and image segmentation techniques. The system ensures secure transmission and access to sensitive geographical data."
+  },
+  {
+    id: 13,
+    title: "Video Encryption using RGB Vectors",
+    category: "Cryptography",
+    img: {VEDIOENCRYPTIONPHOTOURL},
+    description: "A video encryption system that employs advanced mathematical algorithms based on the combination of RGB vectors to ensure secure transmission and storage of video data. The model focuses on preserving video quality while ensuring high-level encryption."
+  }
+  
 ];
 
 export const aboutMeData = {

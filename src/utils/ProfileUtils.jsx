@@ -2,21 +2,23 @@ export const PHOTOURL = "/ppimg.jpg";
 
 export const HEADERPHOTOURL="/pic.jpg"
 
-export const VERBASYNCPHOTOURL="../../public/verbasync.png"
+export const VERBASYNCPHOTOURL="/verbasync.png"
 
-export const CROPRECOMMENDTIONPHOTOURL="../../public/crop.jpg"
+export const CROPRECOMMENDTIONPHOTOURL="/crop.jpg"
 
-export const MEDICALINSURANCEPHOTOURL="../../public/Medical.png"
+export const MEDICALINSURANCEPHOTOURL="/Medical.png"
 
-export const NEBEATSPHOTOURL="../../public/n-beats.jpg"
+export const NEBEATSPHOTOURL="/n-beats.jpg"
 
-export const PRODUCTDISCOVERYPHOTOURL="../../public/product.jpg"
+export const PRODUCTDISCOVERYPHOTOURL="/product.jpg"
 
-export const FINSENTIMENTALPHOTOURL="../../public/sentimental.jpg"
+export const FINSENTIMENTALPHOTOURL="/sentimental.jpg"
 
-export const GEOENCRYPTIONPHOTOURL="../../public/geo-encrp.jpg"
+export const GEOENCRYPTIONPHOTOURL="/geo-encrp.jpg"
 
-export const VEDIOENCRYPTIONPHOTOURL="../../public/video-encp.jpg"
+export const VEDIOENCRYPTIONPHOTOURL="/video-encp.jpg"
+
+export const SWOTPHOTOURL="/SWOT.jpg"
 
 export const GITURL = "https://github.com/Prachalitparate13";
 

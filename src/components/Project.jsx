@@ -7,7 +7,7 @@ function Project() {
     <div className="grid grid-cols-3 gap-4 items-center">
       {projectsData.map((val)=>{
         return (
-          <ProjectCard key={val.index} imgURL={val.img} title={val.title}description={val.description} />
+          <ProjectCard key={val.index} imgURL={val.img} title={val.title}description={val.description} gitlink={val.gitlink} />
         )
       })}
       

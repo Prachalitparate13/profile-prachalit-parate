@@ -7,6 +7,7 @@ export const projectsData = [
     title: "VerbaSync",
     category: "Web-based Application",
     img: "/verbasync.png",
+    gitlink:"https://github.com/Prachalitparate13/VerbaSync",
     description: "VerbaSync is a web-based transcription and translation application built with React.js, Tailwind CSS, and Huggingface.js. It leverages web workers to run machine learning models directly in the browser, enabling fast and efficient transcription and translation without needing a server-side backend."
   },
   {
@@ -14,6 +15,7 @@ export const projectsData = [
     title: "Medical Insurance Cost Prediction System",
     category: "Machine Learning Model",
     img: "/Medical.png",
+    gitlink:"https://github.com/Prachalitparate13/Total-Cost-for-Medical-Insurance",
     description: "A machine learning model designed to predict the cost of medical insurance based on factors such as age, gender, BMI, smoking status, and region for better insurance invesment. This system utilizes regression techniques to accurately forecast insurance premiums with accurcy of 89.49%."
   },
   {
@@ -21,6 +23,7 @@ export const projectsData = [
     title: "Crop Recommendation System",
     category: "Machine Learning Model",
     img: "/crop.jpg",
+    gitlink:"https://github.com/Prachalitparate13/Crop-Recommendation",
     description: "A machine learning model developed to recommend the most suitable crops to plant based on various parameters like soil type, weather conditions, and historical yield data. It uses classification algorithms to optimize crop yield and support agricultural decision-making."
   },
   {
@@ -28,6 +31,7 @@ export const projectsData = [
     title: "NBeats and RevIN Algorithm for Time Series Forecasting",
     category: "Time Series Forecasting",
     img: "/n-beats.jpg",
+    gitlink:"https://github.com/Prachalitparate13/N-Beats-Algorithm-Implementation",
     description: "An implementation of the NBeats and RevIN algorithms for accurate time series forecasting. These advanced machine learning models are designed to handle a wide range of forecasting tasks, including trends, seasonality, and irregular data patterns."
   },
   {
@@ -35,6 +39,7 @@ export const projectsData = [
     title: "Product-Discovery-App",
     category: "Web Application",
     img: "/product.jpg",
+    gitlink:"https://github.com/Prachalitparate13/Product-Discovery-App",
     description: "A Python-based product discovery app that utilizes web scraping to collect data from e-commerce websites. The app is supported by a database and provides analytics on pricing, product trends, and customer reviews to help users make informed purchasing decisions."
   },
   {
@@ -42,6 +47,7 @@ export const projectsData = [
     title: "Financial Sentiment Analysis using NLP",
     category: "Natural Language Processing",
     img: "/sentimental.jpg",
+    gitlink:"https://github.com/Prachalitparate13/Financial-Sentimental-using-NLP",
     description: "A natural language processing (NLP) model designed to analyze financial news and assess market sentiment, classifying financial statements as positive, negative, or neutral, with a reported sentiment    model accuracy of 0.6383."
   },
   {
@@ -49,6 +55,7 @@ export const projectsData = [
     title: "Geo-spatial Image Encryption with Cryptography",
     category: "Cryptography",
     img: "/geo-encrp.jpg",
+    gitlink:"https://cdn.prod.website-files.com/5d6eeb9e2fd62f9ef2207695/612d2ffacb055944adb38bcb_geospatial-data-layers.jpg",
     description: "A cryptographic system that encrypts geo-spatial images using advanced cryptographic algorithms and image segmentation techniques. The system ensures secure transmission and access to sensitive geographical data."
   },
   {
@@ -56,6 +63,7 @@ export const projectsData = [
     title: "Video Encryption using RGB Vectors",
     category: "Cryptography",
     img: "/video-encp.jpg",
+    gitlink:"https://github.com/nikhil19dm/Video_Encryption",
     description: "A video encryption system that employs advanced mathematical algorithms based on the combination of RGB vectors to ensure secure transmission and storage of video data. The model focuses on preserving video quality while ensuring high-level encryption."
   },
   {
@@ -63,6 +71,7 @@ export const projectsData = [
     title: "Student Mentoring Data Analysis using Python",
     category: "Data Analysis",
     img: "/SWOT.jpg", 
+    gitlink:"https://www.wordstream.com/wp-content/uploads/2021/07/swot-analysis-header1.png",
     description: "Analyzed mentoring data from the psychology department, revealing 45% of students lacked confidence in their strengths and weaknesses, leading to a redesign of the intake applicatin with mandatory fields for better data."
   }
   

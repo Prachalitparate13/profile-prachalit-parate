@@ -10,10 +10,10 @@ function Header() {
         <a href="/">
           <h1 className="text-gray-400 hover:text-gray-700">About</h1>
         </a>
-        <a href="/">
+        <a href="/project">
           <h1 className="text-gray-400 hover:text-gray-700">Projects</h1>
         </a>
-        <a href="/">
+        <a href="/contact">
           <h1 className="text-gray-400 hover:text-gray-700">Contact</h1>
         </a>
       </header>
